@@ -40,5 +40,11 @@ defmodule MyAppWeb.Endpoint do
     key: "_my_app_key",
     signing_salt: "fzXy2twF"
 
+  plug Corsica,
+    origins: "http://localhost:8080",
+    allow_credentials: true,
+    allow_headers: ["Content-Type"],
+    log: [rejected: :error, invalid: :warn, accepted: :debug]
+
   plug MyAppWeb.Router
 end
