@@ -1,3 +1,10 @@
+# This repository is a fork of the original to account for Phoenix.Token instead of a session-based auth. 
+
+# Tutorial
+
+This repository is the resulting code from the tutorial
+[Building a JSON API in Elixir with Phoenix 1.4][1]
+
 # MyApp
 
 To start your Phoenix server:
@@ -17,12 +24,6 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 * Docs: https://hexdocs.pm/phoenix
 * Mailing list: http://groups.google.com/group/phoenix-talk
 * Source: https://github.com/phoenixframework/phoenix
-
-
-# Tutorial
-
-This repository is the resulting code from the tutorial
-[Building a JSON API in Elixir with Phoenix 1.4][1]
 
 
 [1]: https://lobotuerto.com/blog/building-a-json-api-in-elixir-with-phoenix
