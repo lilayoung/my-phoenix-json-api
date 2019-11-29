@@ -1,4 +1,4 @@
-# This repository is a fork of the original to account for Phoenix.Token instead of a session-based auth. 
+This repository is a fork of the original to account for Phoenix.Token instead of a session-based auth. 
 
 # Tutorial
 
